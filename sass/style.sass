@@ -1,0 +1,201 @@
+$main-color: #00A19A
+$main-color-light: #00d2c9
+$main-color-dark: #09908a
+$grey-light: #848484
+$grey-dark: #232323
+
+body
+	font-family: 'Akrobat', sans-serif
+	margin: 0
+	padding: 0
+  position: relative
+
+ul
+	list-style: none
+	margin: 0
+	padding: 0
+
+h1, h2, h3, h4, h5, h6
+	font-family: 'Nexa Script', serif
+	color: $main-color
+	text-align: center
+
+.center
+	text-align: center
+
+header.main
+	background: url('../img/bg/main-bg.jpg') center (center/cover) no-repeat
+	min-height: 100vh
+	position: relative
+	.wrapper
+	display: flex
+	flex-direction: column
+	align-items: center
+  position: relative
+	.nav
+		display: flex
+		justify-content: center
+		max-width: 780px
+		margin: 0 auto
+		margin-top: 140px
+		text-align: center
+		li
+			position: relative
+			width: 200px
+			height: 50px
+			margin: 5px 25px
+			a
+				display: block
+				line-height: 45px
+				width: 100%
+				letter-spacing: 3px
+				font-weight: 400
+				text-decoration: none
+				font-family: 'Nexa Script', sans-serif
+				font-size: 25px
+				color: #848484
+				box-shadow: 0 0 8px rgba(0, 0, 0, 0.3)
+				border-radius: 50px
+				background-color: #F9F9F9
+				transition: 0.5s
+				&:hover
+					color: $main-color
+					box-shadow: 0 0 16px rgba(0, 0, 0, 0.6)
+			&:nth-child(2)
+				top: -75px
+	@media (max-width: 991px)
+		.nav
+			flex-direction: column
+			align-items: center
+			margin-top: 50px
+			li:nth-child(2)
+				top: 0
+	.main-logo
+		width: 18rem
+		height: 18rem
+		background-color: #f9f9f9
+		border-radius: 50%
+		margin: 0 auto
+		margin-top: 50px
+		box-shadow: 0 0 25px rgba(0, 0, 0, 0.5)
+		text-align: center
+		img
+			display: block
+			margin: 0 auto
+			padding-top: 30%
+			padding-right: 20px
+			max-width: 80%
+		div
+			font-family: 'Akrobat'
+			color: $grey-light
+			font-size: 20px
+			margin-top: 10px
+	.lang-icon
+		display: block
+		position: absolute
+		top: 25px
+		right: 35px
+		img
+			width: 50px
+			height: auto
+			border-radius: 10px
+			border: 4px solid #fff
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+
+.social
+	font-family: 'icomoon' !important
+	height: 200px
+	display: flex
+	justify-content: center
+	align-items: center
+	li
+		a
+			margin: 0 10px
+			font-size: 2.5rem
+			text-decoration: none
+			color: $main-color
+			transition: 0.2s
+			&:hover
+				color: $main-color-light
+		&:nth-child(2)
+			a
+				font-size: 3rem
+	&-white
+		li
+			a
+				color: #fff
+
+.mt100
+	margin-top: 100px
+
+.about-us
+	text-align: center
+	padding: 30px 0
+	.bold
+		font-weight: bold
+
+.gallery
+	padding: 30px 0
+
+.menu
+	min-height: 600px
+	background: url('../img/bg/menu-bg.jpg') center (center/cover) no-repeat
+	&-header
+		background-color: $main-color
+		.nav
+			display: flex
+			justify-content: center
+			&-link
+				border: none
+				font-size: 19px
+				text-transform: uppercase
+				color: #f2f2f2
+				padding: 0.5rem 1rem;
+				font-weight: 600
+			.active
+				background-color: $main-color-dark
+				border: none
+				color: #f2f2f2
+	.tab-pane-container
+		text-align: center
+h5
+	font-size: 1.6rem
+	color: $main-color
+	margin: 15px auto
+.italic
+	font-style: italic
+.menu-item
+	font-size: 1.2rem
+	line-height: 1.4rem
+	&-mini
+		font-size: 0.8rem
+	&-price
+		font-weight: 800
+.accordion-button
+	font-size: 1.4rem
+	color: $grey-light
+	&:not(.collapsed)
+		color: $main-color
+
+.contacts
+	position: relative
+	margin-top: 50px
+	&-block
+		position: absolute
+		width: 320px
+		display: flex
+		flex-direction: column
+		align-items: center
+		font-size: 1.5rem
+		left: 50%
+		transform: translateX(-50%)
+		background-color: #fff
+		box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1)
+		padding: 20px 40px
+		a
+			text-decoration: none
+			color: $main-color
+
+footer
+	background-color: $main-color
+	height: 100%
