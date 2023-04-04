@@ -306,14 +306,14 @@
         <div class="container">
           <div class="row d-none d-xs-block d-sm-block">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item" role="presentation">
+<!--               <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="meals-hot-ua-tab" data-bs-toggle="tab" data-bs-target="#meals-hot-ua" type="button" role="tab" aria-controls="meals-hot-ua" aria-selected="true">Гарячі страви</button>
               </li>
               <li class="nav-item" role="presentation">
                 <button class="nav-link" id="meals-cold-ua-tab" data-bs-toggle="tab" data-bs-target="#meals-cold-ua" type="button" role="tab" aria-controls="meals-col-ua" aria-selected="false">Холодні страви</button>
-              </li>
+              </li> -->
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="drinks-soft-ua-tab" data-bs-toggle="tab" data-bs-target="#drinks-soft-ua" type="button" role="tab" aria-controls="drinks-soft-ua" aria-selected="false">Безалкогольні напої</button>
+                <button class="nav-link active" id="drinks-soft-ua-tab" data-bs-toggle="tab" data-bs-target="#drinks-soft-ua" type="button" role="tab" aria-controls="drinks-soft-ua" aria-selected="false">Безалкогольні напої</button>
               </li>
               <li class="nav-item" role="presentation">
                 <button class="nav-link" id="drinks-coctail-ua-tab" data-bs-toggle="tab" data-bs-target="#drinks-coctail-ua" type="button" role="tab" aria-controls="drinks-coctail-ua" aria-selected="false">Коктейлі</button>
@@ -327,9 +327,9 @@
               <li class="nav-item" role="presentation">
                 <button class="nav-link" id="drinks-elite-ua-tab" data-bs-toggle="tab" data-bs-target="#drinks-elite-ua" type="button" role="tab" aria-controls="drinks-elite-ua" aria-selected="false">Елітні напої</button>
               </li>
-              <li class="nav-item" role="presentation">
+<!--               <li class="nav-item" role="presentation">
                 <button class="nav-link" id="hookah-ua-tab" data-bs-toggle="tab" data-bs-target="#hookah-ua" type="button" role="tab" aria-controls="hookah-ua" aria-selected="false">Кальян</button>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -337,17 +337,17 @@
       <div class="container">
         <div class="row d-none d-xs-block d-sm-block">
           <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="meals-hot-ua" role="tabpanel" aria-labelledby="meals-hot-ua-tab">
+<!--             <div class="tab-pane fade show active" id="meals-hot-ua" role="tabpanel" aria-labelledby="meals-hot-ua-tab">
               <div class="tab-pane-container menu-meals-hot-ua">
-              <!-- menu.js -->
+              
               </div>
             </div>
             <div class="tab-pane fade" id="meals-cold-ua" role="tabpanel" aria-labelledby="meals-cold-ua-tab">
               <div class="tab-pane-container menu-meals-cold-ua">
-                <!-- menu.js -->
+                
                 </div>
-            </div>
-            <div class="tab-pane fade" id="drinks-soft-ua" role="tabpanel" aria-labelledby="drinks-soft-ua-tab">
+            </div> -->
+            <div class="tab-pane fade show active" id="drinks-soft-ua" role="tabpanel" aria-labelledby="drinks-soft-ua-tab">
               <div class="tab-pane-container menu-drinks-soft-ua">
                 <!-- menu.js -->
                 </div>
@@ -372,11 +372,11 @@
                 <!-- menu.js -->
                 </div>
             </div>
-            <div class="tab-pane fade" id="hookah-ua" role="tabpanel" aria-labelledby="hookah-ua-tab">
+<!--             <div class="tab-pane fade" id="hookah-ua" role="tabpanel" aria-labelledby="hookah-ua-tab">
               <div class="tab-pane-container menu-hookah-ua">
-                <!-- menu.js -->
+
                 </div>  
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -386,7 +386,7 @@
   <section class="menu-mini d-block d-sm-none">
     <div class="container">
       <div class="accordion" id="accordion-menu">
-
+<!-- 
         <div class="accordion-item">
           <h2 class="accordion-header" id="heading-meals-hot-ua-mini">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#meals-hot-ua-mini" aria-expanded="true" aria-controls="meals-hot-ua-mini">
@@ -396,7 +396,7 @@
           <div id="meals-hot-ua-mini" class="accordion-collapse collapse show" aria-labelledby="heading-meals-hot-ua-mini" data-bs-parent="#accordion-menu">
             <div class="accordion-body menu-item">
               <div class="tab-pane-container menu-meals-hot-ua center">
-                <!-- menu.js -->
+                
               </div>
             </div>
           </div>
@@ -411,19 +411,19 @@
           <div id="meals-cold-ua-mini" class="accordion-collapse collapse" aria-labelledby="heading-meals-cold-ua-mini" data-bs-parent="#accordion-menu">
             <div class="accordion-body">
               <div class="tab-pane-container menu-meals-cold-ua center">
-                <!-- menu.js -->
+                
               </div>
             </div>
           </div>
         </div>
-
+ -->
         <div class="accordion-item">
           <h2 class="accordion-header" id="heading-drinks-soft-ua-mini">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#drinks-soft-ua-mini" aria-expanded="false" aria-controls="drinks-soft-ua-mini">
               Безалкогольні напої
             </button>
           </h2>
-          <div id="drinks-soft-ua-mini" class="accordion-collapse collapse" aria-labelledby="heading-drinks-soft-ua-mini" data-bs-parent="#accordion-menu">
+          <div id="drinks-soft-ua-mini" class="accordion-collapse collapse show" aria-labelledby="heading-drinks-soft-ua-mini" data-bs-parent="#accordion-menu">
             <div class="accordion-body">
               <div class="tab-pane-container menu-drinks-soft-ua center">
                 <!-- menu.js -->
@@ -492,7 +492,7 @@
           </div>
         </div>
 
-        <div class="accordion-item">
+<!--         <div class="accordion-item">
           <h2 class="accordion-header" id="heading-hookah-ua-mini">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hookah-ua-mini" aria-expanded="false" aria-controls="hookah-ua-mini">
               Кальян
@@ -501,11 +501,11 @@
           <div id="hookah-ua-mini" class="accordion-collapse collapse" aria-labelledby="heading-hookah-ua-mini" data-bs-parent="#accordion-menu">
             <div class="accordion-body">
               <div class="tab-pane-container menu-hookah-ua center">
-                <!-- menu.js -->
+
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </div>
