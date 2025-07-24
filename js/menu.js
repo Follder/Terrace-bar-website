@@ -45,25 +45,25 @@ const mealsColdZaher = new MenuItem('Торт «Захер»', 'Zaher dessert', 
 const mealsColdTiramisu = new MenuItem('Тірамісу', 'Tiramisu', '1шм.', '1p.', '175.00');
 const mealsColdMakaron = new MenuItem('Макарун', 'Macaron', '1шм.', '1p.', '120.00');
 const mealsColdNapoleon = new MenuItem('Наполеон', 'Napoleon', '1шм.', '1p.', '135.00');
-const mealsColdLimo = new MenuItem('Морозиво Limo "Ice Cream"', 'Limo ice cream', '60г.', '60g.', '50.00');
+const mealsColdLimo = new MenuItem('Морозиво Limo "Ice Cream"', 'Limo ice cream', '60г.', '60g.', '55.00');
 const mealsColdKashtan = new MenuItem('Морозиво каштан', 'Kashtan ice cream', '70г.', '70g.', '65.00');
 const mealsColdLvivIcecramChoco = new MenuItem('Морозиво Львівське в шоколадній глазурі', 'Lviv ice cream with chocolate', '70г.', '70g.', '65.00');
-const mealsColdMultifruit = new MenuItem('Морозиво Льодик Мультифрукт', 'Multi fruits ice cream', '70г.', '70g.', '50.00');
+const mealsColdMultifruit = new MenuItem('Морозиво Льодик Мультифрукт', 'Multi fruits ice cream', '70г.', '70g.', '55.00');
 const mealsColdIceCreamCones = new MenuItem('Морозиво Ріжок "Потрійний шоколад"', 'Ice cream cones "Triple chocolate"', '65г.', '65g.', '65.00');
 
 const mealsColdSaltedNuts = new MenuItem('Асорті солених горіхів', 
 'Assorted salted nuts', '90г.', '90g.', '110.00');
 
-const drinksSoftEspresso = new MenuItem('Еспресо', 'Espresso', '', '', '60.00');
-const drinksSoftAmericano = new MenuItem('Американо', 'Americano', '', '', '60.00');
-const drinksSoftAmericanoMilk = new MenuItem('Американо з молоком', 'Americano with milk', '', '', '65.00');
-const drinksSoftLate = new MenuItem('Лате', 'Late', '', '', '75.00');
-const drinksSoftCappuccino = new MenuItem('Капучіно', 'Cappuccino', '', '', '75.00');
-const drinksSoftFlatWhite = new MenuItem('Кава флет-вайт', 'Flat white coffee', '', '', '120.00');
+const drinksSoftEspresso = new MenuItem('Еспресо', 'Espresso', '', '', '75.00');
+const drinksSoftAmericano = new MenuItem('Американо', 'Americano', '', '', '75.00');
+const drinksSoftAmericanoMilk = new MenuItem('Американо з молоком', 'Americano with milk', '', '', '85.00');
+const drinksSoftLate = new MenuItem('Лате', 'Late', '', '', '95.00');
+const drinksSoftCappuccino = new MenuItem('Капучіно', 'Cappuccino', '', '', '95.00');
+const drinksSoftFlatWhite = new MenuItem('Кава флет-вайт', 'Flat white coffee', '', '', '140.00');
 const drinksSoftHotChocolate = new MenuItem('Гарячий шоколад', 'Hot chocolate', '', '', '105.00');
 const drinksSoftBrewTea = new MenuItem('Чай заварний', 'Brew tea', '', '', '65.00');
-const drinksSoftCarpatianTea = new MenuItem('Чай карпатський', 'Carpatian tea', '', '', '65.00');
-const drinksSoftGingerTea = new MenuItem('Чай імбирний з корицею', 'Ginger tea', '180мл', '180ml', '85.00');
+const drinksSoftCarpatianTea = new MenuItem('Чай карпатський', 'Carpatian tea', '', '', '75.00');
+const drinksSoftGingerTea = new MenuItem('Чай імбирний з корицею', 'Ginger tea', '180мл', '180ml', '135.00');
 
 const drinksSoftClassicLemonade = new MenuItem('Лимонад класичний', 'Classic Lemonade', 'п.', '1p.', '105.00');
 const drinksSoftLemonadeSyrup = new MenuItem('Лимонад з сиропом', 'Lemonade with syrup', 'п.', '1p.', '110.00');
@@ -206,8 +206,6 @@ document.querySelectorAll('.menu-meals-cold-en').forEach(item => {
   <h5>Desserts</h5>
   ${mealsColdZaher.engItem()}
   ${mealsColdTiramisu.engItem()}
-  ${mealsColdMakaron.engItem()}
-  ${mealsColdNapoleon.engItem()}
   <h5>Ice cream</h5>
   ${mealsColdLimo.engItem()}
   ${mealsColdKashtan.engItem()}
@@ -221,8 +219,6 @@ document.querySelectorAll('.menu-meals-cold-ua').forEach(item => {
   <h5>Десерти</h5>
   ${mealsColdZaher.ukrItem()}
   ${mealsColdTiramisu.ukrItem()}
-  ${mealsColdMakaron.ukrItem()}
-  ${mealsColdNapoleon.ukrItem()}
   <h5>Морозиво</h5>
   ${mealsColdLimo.ukrItem()}
   ${mealsColdKashtan.ukrItem()}
